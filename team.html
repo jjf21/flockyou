@@ -7,8 +7,8 @@
           content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Use the title from a page's frontmatter if it has one -->
     <title>Le Wagon - Team</title>
-    <link href="stylesheets/application-c83325fb.css" rel="stylesheet" />
-    <script src="javascripts/application-93de88c9.js"></script>
+    <link href="stylesheets/application-02e1e68e.css" rel="stylesheet" />
+    <script src="javascripts/application-2d03f36a.js"></script>
     <link href="images/logo-flockyou-73663e93.png" rel="icon" type="image/png" />
   </head>
   <body>
@@ -26,21 +26,32 @@
 <div class="navbar-wagon hidden-xs hidden-sm">
 
     <a href="#" class="navbar-wagon-item navbar-wagon-link">Home</a>
-    <a href="#" class="navbar-wagon-item navbar-wagon-link">Produits</a>
+    <div class='dropdown'>
+      <a href="#" class="navbar-wagon-item navbar-wagon-link dropdown-toggle" data-toggle="dropdown" type="button" id="poduct-dropdown">Produits <span class='caret'></span></a>
+    
+      <ul class="dropdown-menu" role="menu" aria-labelledby="poduct-dropdown">
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Sweats</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Polos</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Tshirts</a></li>
+      </ul>
+    </div>
     <a href="#" class="navbar-wagon-item navbar-wagon-link">Personnalisation</a>
     <a href="#" class="navbar-wagon-item navbar-wagon-link">Réalisation</a>
     <a href="#" class="navbar-wagon-item navbar-wagon-link">Infos</a>
     <a href="#" class="navbar-wagon-item navbar-wagon-link">Devis</a>
 </div>
+
+
+
+
+
 <div class="navbar-wagon hidden-md hidden-lg">
   <!-- Dropdown appearing on mobile only -->
   <div class="navbar-wagon-item mobile-menu ">
     <div class="dropdown">
       <i class="fa fa-bars dropdown-toggle" data-toggle="dropdown"></i>
       <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
-        <li><a href="#">Host</a></li>
-        <li><a href="#">Trips</a></li>
-        <li><a href="#">Messagese</a></li>
+        <li><a href="#">Account</a></li>
       </ul>
     </div>
   </div>

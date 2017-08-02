@@ -1,0 +1,1 @@
+$(document).ready(function(){$(".dropdown").mouseenter(function(o){$(".dropdown-toggle",o.target).trigger("click")})});
