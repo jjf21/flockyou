@@ -1,0 +1,36 @@
+sweat:
+  name: "Sweat Personnalisés"
+  description: "Ils être brodés, imprimés ou floqués avec votre logo et votre texte. Ces sweats personnalisables de qualité donneront une image jeune et dynamique de votre entreprise, association ou groupe d'amis."
+  picture: 'casquettes-personnalisees.jpg'
+
+polo:
+  name: "Polos Personnalisés"
+  description: "Le polo personnalisé est une excellente alternative au tee shirt personnalisé. Les polos personnalisés peuvent être marqués en broderie, sérigraphie ou flocage."
+  picture: 'casquettes-personnalisees.jpg'
+
+tshirt:
+  name: "T-shirts Personnalisés"
+  description: "Voici notre gamme de tee shirts personnalisés. Tous ces modèles ont été sélectionnés pour leur excellent rapport qualité / prix. Chaque tee shirt peut être imprimé, floqué ou brodé."
+  picture: 'casquettes-personnalisees.jpg'
+
+casquette:
+  name: "Casquettes Personnalisés"
+  description: "Elles sont un moyen simple et pas cher de promouvoir votre association ou votre entreprise. Nous proposons différents modèles de casquettes personnalisées."
+  picture: 'casquettes-personnalisees.jpg'
+
+veste:
+  name: "Vestes Personnalisés"
+  description: "Découvrez nos softshells, blousons et teddys à personnaliser. Notre sélection rigoureuse nous permet de vous proposer les modèles ayant le meilleur rapport qualité / prix."
+  picture: 'casquettes-personnalisees.jpg'
+
+jogging:
+  name: "Joggings Personnalisés"
+  description: "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart."
+  picture: 'casquettes-personnalisees.jpg'
+
+bonnet:
+  name: "Bonnets Personnalisés"
+  description: "Voici notre gamme de bonnets personnalisés. Appréciés de tous, les bonnets vous garantissent une excellente visibilité. La personnalisation est assurée en broderie, le plus souvent sur le revers "
+  picture: 'casquettes-personnalisees.jpg'
+
+

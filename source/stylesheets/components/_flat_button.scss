@@ -1,0 +1,11 @@
+.btn-flat{
+  background:none;
+  border-width: 1px;
+  font-weight: 200;
+}
+
+.btn-flat:hover{
+  background:none;
+  border-color: $yellow;
+  color: $yellow;
+}
