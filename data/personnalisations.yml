@@ -1,0 +1,14 @@
+broderie:
+  name: "Broderie"
+  description: "La broderie est le procédé de personnalisation assurant la meilleure qualité et une excellente tenue dans le temps. Les éléments brodés sont directement intégrés dans le textile."
+  picture: 'casquettes-personnalisees.jpg'
+
+flocage:
+  name: "Flocage"
+  description: "e flocage est une technique qui consiste à venir appliquer grâce à une presse à chaud un logo ou une inscription préalablement imprimée."
+  picture: 'casquettes-personnalisees.jpg'
+
+seriegraphie:
+  name: "Sériegraphie"
+  description: "La sérigraphie est une technique qui consiste à appliquer de l'encre directement sur le vêtement. C'est une technique qui assure un rendu de très bonne qualité et avec une bonne tenue dans le temps."
+  picture: 'casquettes-personnalisees.jpg'

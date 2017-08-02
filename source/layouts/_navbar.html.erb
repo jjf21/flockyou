@@ -12,21 +12,32 @@
 <div class="navbar-wagon hidden-xs hidden-sm">
 
     <%= link_to "Home", "#", class: 'navbar-wagon-item navbar-wagon-link' %>
-    <%= link_to "Produits", "#", class: 'navbar-wagon-item navbar-wagon-link' %>
+    <div class='dropdown'>
+      <%= link_to "Produits <span class='caret'></span>", "#", class: 'navbar-wagon-item navbar-wagon-link dropdown-toggle',  data: { toggle: 'dropdown'}, type:'button', id:'poduct-dropdown' %>
+    
+      <ul class="dropdown-menu" role="menu" aria-labelledby="poduct-dropdown">
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Sweats</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Polos</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Tshirts</a></li>
+      </ul>
+    </div>
     <%= link_to "Personnalisation", "#", class: 'navbar-wagon-item navbar-wagon-link' %>
     <%= link_to "Réalisation", "#", class: 'navbar-wagon-item navbar-wagon-link' %>
     <%= link_to "Infos", "#", class: 'navbar-wagon-item navbar-wagon-link' %>
     <%= link_to "Devis", "#", class: 'navbar-wagon-item navbar-wagon-link' %>
 </div>
+
+
+
+
+
 <div class="navbar-wagon hidden-md hidden-lg">
   <!-- Dropdown appearing on mobile only -->
   <div class="navbar-wagon-item mobile-menu ">
     <div class="dropdown">
       <i class="fa fa-bars dropdown-toggle" data-toggle="dropdown"></i>
       <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
-        <li><a href="#">Host</a></li>
-        <li><a href="#">Trips</a></li>
-        <li><a href="#">Messagese</a></li>
+        <li><%= link_to "Account", "#" %></li>
       </ul>
     </div>
   </div>
